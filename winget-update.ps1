@@ -7,9 +7,9 @@ $package = $packages | where-object { $_.identifier.ToLower() -eq $category }
 
 if( $null -ne $package )
 {
-    write-host "Trying to install $($package.identifier)..."
+    write-host "Trying to update $($package.identifier)..."
 
-    winget install $category --scope machine
+    winget upgrade $category
 
     return;
 }
@@ -17,9 +17,9 @@ if( $null -ne $package )
 $packages = $packages | Where-Object { $_.categories -icontains $category } 
 
 $packages | ForEach-Object { 
-    write-host "Trying to install $($_.identifier)..."
+    write-host "Trying to update $($_.identifier)..."
 
-    winget install $_.identifier --scope machine
+    winget upgrade $_.identifier 
 
     write-host "`r`n" -NoNewline
 }

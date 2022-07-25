@@ -28,5 +28,9 @@ $packages = @(
 	@{identifier = "Adobe.Acrobat.Reader.64-bit"; categories=$( categories(@("utilities", "user-desktop")) ) },
 	@{identifier = "Microsoft.OneDrive"; categories=$( categories(@("cloud", "storage", "user-desktop")) ) },
 	@{identifier = "Jabra.Direct"; categories=$( categories(@("utilities", "communication")) ) },
-	@{identifier = "PostgreSQL.pgAdmin"; categories=$( categories(@("utilities", "dbms", "postgres")) ) }
+	@{identifier = "PostgreSQL.pgAdmin"; categories=$( categories(@("utilities", "dbms", "postgres")) ) },
+	@{identifier = "tencent.wechat"; categories=$( categories(@("wechat")) ) },
+	@{identifier = "spotify.spotify"; categories=$( categories(@("music-streaming", "streaming")) ) },
+	@{identifier = "Cisco.CiscoWebexMeetings"; categories=$( categories(@("teleconference")) ) },
+	@{identifier = "zoom.zoom"; categories=$( categories(@("teleconference")) ) }
 )
