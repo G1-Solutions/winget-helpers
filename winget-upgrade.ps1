@@ -1,6 +1,7 @@
 param([String]$category)
 
-. winget-packages.ps1
+. .\winget-system-installer.ps1
+. .\winget-packages.ps1
 
 $packages = $packages | Where-Object { $_.categories -icontains $category } 
 
