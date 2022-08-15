@@ -1,7 +1,7 @@
 param([String]$category)
 
-. .\winget-system-installer.ps1
-. .\winget-packages.ps1
+. $PSScriptRoot\winget-system-installer.ps1
+. $PSScriptRoot\winget-packages.ps1
 
 $package = $packages | where-object { $_.identifier.ToLower() -eq $category }
 
