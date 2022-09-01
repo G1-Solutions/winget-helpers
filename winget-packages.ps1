@@ -36,7 +36,7 @@ $packages = @(
 	@{identifier = "Python.Python.3"; categories=$( categories(@("sdk", "runtime", "python3")) ) },
 	@{identifier = "spotify.spotify"; categories=$( categories(@("music-streaming", "streaming")) ) },
 	@{identifier = "TeamViewer.TeamViewer"; categories=$( categories(@("utilities")) ) },
-	@{identifier = "TeamViewer.TeamViewer.Host"; categories=$( categories(@("utilities", "user-desktop")) ) },
+	@{identifier = "TeamViewer.TeamViewer.Host"; categories=$( categories(@("user-desktop")) ) },
 	@{identifier = "tencent.wechat"; categories=$( categories(@("wechat")) ) },
 	@{identifier = "TeraTermProject.teraterm"; categories=$( categories(@("utilities")) ) },
 	@{identifier = "VideoLAN.VLC"; categories=$( categories(@("utilities", "multimedia")) ) },

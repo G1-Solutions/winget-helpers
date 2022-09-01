@@ -1,0 +1,356 @@
+[{
+        "categories": [
+            null,
+            "",
+            "utilities",
+            "user-desktop"
+        ],
+        "identifier": "7zip.7zip",
+        "alias": "7zip"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities",
+            "user-desktop"
+        ],
+        "identifier": "AcroSoftware.CutePDFWriter",
+        "alias": "Acroftware.CutePDFWriter"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities",
+            "user-desktop"
+        ],
+        "identifier": "Adobe.Acrobat.Reader.64-bit",
+        "alias": "Acrobat.Reader.64-bit"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities",
+            "cloud"
+        ],
+        "identifier": "Amazon.AWSCLI",
+        "alias": "AWSCLI"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "teleconference"
+        ],
+        "identifier": "Cisco.CiscoWebexMeetings",
+        "alias": "webex"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities"
+        ],
+        "identifier": "bitvise.SSHClient",
+        "alias": "bitvise.SSHClient"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities",
+            "terminal",
+            "cli"
+        ],
+        "identifier": "chrisant996.clink",
+        "alias": "clink"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "dell"
+        ],
+        "identifier": "Dell.CommandUpdate.Universal",
+        "alias": "Dell.CommandUpdate"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "container",
+            "virtualization"
+        ],
+        "identifier": "Docker.Desktop",
+        "alias": "Docker.Desktop"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "security",
+            "password",
+            "utilities"
+        ],
+        "identifier": "DominikReichl.KeePass",
+        "alias": "KeePass"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "source-control",
+            "development"
+        ],
+        "identifier": "Git.Git",
+        "alias": "Git"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "browsers"
+        ],
+        "identifier": "Google.Chrome",
+        "alias": "Chrome"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities",
+            "communication"
+        ],
+        "identifier": "Jabra.Direct",
+        "alias": "Jabra.Direct"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities",
+            "terminal",
+            "cli"
+        ],
+        "identifier": "JanDeDobbeleer.OhMyPosh",
+        "alias": "OhMyPosh"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities"
+        ],
+        "identifier": "Logitech.Options",
+        "alias": "Logitech.Options"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "browsers"
+        ],
+        "identifier": "Mozilla.Firefox",
+        "alias": "Firefox"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "browsers",
+            "user-desktop"
+        ],
+        "identifier": "Mozilla.Firefox.ESR",
+        "alias": "Firefox.ESR"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "runtimes",
+            "user-desktop"
+        ],
+        "identifier": "Microsoft.DotNet.DesktopRuntime.6",
+        "alias": "DotNet.DesktopRuntime.6"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "runtimes",
+            "user-desktop"
+        ],
+        "identifier": "Microsoft.DotNet.Runtime.3_1",
+        "alias": "DotNet.Runtime.3_1"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "cloud",
+            "storage",
+            "user-desktop"
+        ],
+        "identifier": "Microsoft.OneDrive",
+        "alias": "OneDrive"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities",
+            "user-desktop"
+        ],
+        "identifier": "Microsoft.PowerToys",
+        "alias": "Windows-PowerToys"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities",
+            "user-desktop"
+        ],
+        "identifier": "Microsoft.Powershell",
+        "alias": "Powershell"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities",
+            "user-desktop"
+        ],
+        "identifier": "Microsoft.WindowsTerminal",
+        "alias": "WindowsTerminal"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "runtimes",
+            "user-desktop"
+        ],
+        "identifier": "Microsoft.VC++2013Redist-x64",
+        "alias": "VC++2013Redist-x64"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "editors",
+            "user-desktop",
+            "utilities",
+            "development"
+        ],
+        "identifier": "Microsoft.VisualStudioCode",
+        "alias": "vscode"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "runtimes",
+            "user-desktop"
+        ],
+        "identifier": "Oracle.JavaRuntimeEnvironment",
+        "alias": "jre"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "dbms",
+            "postgres"
+        ],
+        "identifier": "PostgreSQL.pgAdmin",
+        "alias": "pgAdmin"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "sdk",
+            "runtime",
+            "python3"
+        ],
+        "identifier": "Python.Python.3",
+        "alias": "Python.3"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "music-streaming",
+            "streaming"
+        ],
+        "identifier": "spotify.spotify",
+        "alias": "spotify"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities"
+        ],
+        "identifier": "TeamViewer.TeamViewer",
+        "alias": "TeamViewer"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "user-desktop"
+        ],
+        "identifier": "TeamViewer.TeamViewer.Host",
+        "alias": "TeamViewer.Host"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "wechat"
+        ],
+        "identifier": "tencent.wechat",
+        "alias": "wechat"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities"
+        ],
+        "identifier": "TeraTermProject.teraterm",
+        "alias": "teraterm"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities",
+            "multimedia"
+        ],
+        "identifier": "VideoLAN.VLC",
+        "alias": "VLC"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "utilities"
+        ],
+        "identifier": "WinSCP.WinSCP",
+        "alias": "WinSCP"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "teleconference"
+        ],
+        "identifier": "zoom.zoom",
+        "alias": "zoom"
+    }
+]
