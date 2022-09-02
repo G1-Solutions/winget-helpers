@@ -16,7 +16,7 @@
             "user-desktop"
         ],
         "identifier": "AcroSoftware.CutePDFWriter",
-        "alias": "Acroftware.CutePDFWriter"
+        "alias": "CutePDFWriter"
     },
     {
         "categories": [
@@ -26,7 +26,7 @@
             "user-desktop"
         ],
         "identifier": "Adobe.Acrobat.Reader.64-bit",
-        "alias": "Acrobat.Reader.64-bit"
+        "alias": "AcrobatReader"
     },
     {
         "categories": [

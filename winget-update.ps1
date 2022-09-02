@@ -1,20 +1,16 @@
-param([String]$category)
+param([String]$alias = $null, [String]$identifier = $null, [String]$category = $null)
 
 . $PSScriptRoot\winget-system-installer.ps1
 . $PSScriptRoot\winget-packages.ps1
 
-$package = $packages | where-object { $_.identifier.ToLower() -eq $category }
-
-if( $null -ne $package )
+if( $null -ne $identifier -and $identifier -ne "")
 {
-    write-host "Trying to update $($package.identifier)..."
-
-    winget upgrade $category
-
-    return;
+	$packages = $packages | where-object { $_.identifier -eq $identifier }
 }
-
-$packages = $packages | Where-Object { $_.categories -icontains $category } 
+else
+{
+	$packages = $packages | Where-Object { ($null -eq $alias -or $alias -eq "" -or $_.alias.ToUpper() -eq $alias.ToUpper()) -and ($_.categories -icontains $category -or $null -eq $category) } 
+}
 
 $packages | ForEach-Object { 
     write-host "Trying to update $($_.identifier)..."
