@@ -51,7 +51,10 @@
         "categories": [
             null,
             "",
-            "utilities"
+            "utilities",
+            "filetransfer",
+            "ssh",
+            "terminal"
         ],
         "identifier": "bitvise.SSHClient",
         "alias": "bitvise.SSHClient"
@@ -102,7 +105,8 @@
             null,
             "",
             "source-control",
-            "development"
+            "development",
+            "git"
         ],
         "identifier": "Git.Git",
         "alias": "Git"
@@ -169,7 +173,7 @@
         "categories": [
             null,
             "",
-            "runtimes",
+            "runtime",
             "user-desktop"
         ],
         "identifier": "Microsoft.DotNet.DesktopRuntime.6",
@@ -179,11 +183,24 @@
         "categories": [
             null,
             "",
-            "runtimes",
+            "runtime",
             "user-desktop"
         ],
         "identifier": "Microsoft.DotNet.Runtime.3_1",
         "alias": "DotNet.Runtime.3_1"
+    },
+    {
+        "categories": [
+            "",
+            "dotnet",
+            "uninstall",
+            "microsoft",
+            "utilities",
+            "runtime",
+            "sdk"
+        ],
+        "identifier": "Microsoft.dotnetUninstallTool",
+        "alias": "dotnetuninstall"
     },
     {
         "categories": [
@@ -230,7 +247,7 @@
         "categories": [
             null,
             "",
-            "runtimes",
+            "runtime",
             "user-desktop"
         ],
         "identifier": "Microsoft.VC++2013Redist-x64",
@@ -243,7 +260,8 @@
             "editors",
             "user-desktop",
             "utilities",
-            "development"
+            "development",
+            "visualstudio"
         ],
         "identifier": "Microsoft.VisualStudioCode",
         "alias": "vscode"
@@ -252,7 +270,31 @@
         "categories": [
             null,
             "",
-            "runtimes",
+            "editors",
+            "utilities",
+            "development",
+            "visualstudio"
+        ],
+        "identifier": "Microsoft.VisualStudio.2019.Community",
+        "alias": "vs2019"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "editors",
+            "utilities",
+            "development",
+            "visualstudio"
+        ],
+        "identifier": "Microsoft.VisualStudio.2022.Community",
+        "alias": "vs2022"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "runtime",
             "user-desktop"
         ],
         "identifier": "Oracle.JavaRuntimeEnvironment",
@@ -278,6 +320,19 @@
         ],
         "identifier": "Python.Python.3",
         "alias": "Python.3"
+    },
+    {
+        "categories": [
+            null,
+            "",
+            "sdk",
+            "runtime",
+            "windows",
+            "microsoft",
+            "development"
+        ],
+        "identifier": "Microsoft.WindowsSDK",
+        "alias": "WindowsSdk"
     },
     {
         "categories": [
@@ -311,7 +366,8 @@
         "categories": [
             null,
             "",
-            "wechat"
+            "wechat",
+            "tencent"
         ],
         "identifier": "tencent.wechat",
         "alias": "wechat"
@@ -320,7 +376,10 @@
         "categories": [
             null,
             "",
-            "utilities"
+            "utilities",
+            "ssh",
+            "telnet",
+            "terminal"
         ],
         "identifier": "TeraTermProject.teraterm",
         "alias": "teraterm"
@@ -330,7 +389,8 @@
             null,
             "",
             "utilities",
-            "multimedia"
+            "multimedia",
+            "video"
         ],
         "identifier": "VideoLAN.VLC",
         "alias": "VLC"
@@ -339,7 +399,9 @@
         "categories": [
             null,
             "",
-            "utilities"
+            "utilities",
+            "ssh",
+            "filetransfer"
         ],
         "identifier": "WinSCP.WinSCP",
         "alias": "WinSCP"

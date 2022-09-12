@@ -1,10 +1,4 @@
-
-function categories([string[]]$categories)
-{
-    return @( $null, '') + $categories
-}
-
-$packages = get-content .\packages.json | ConvertFrom-Json 
+$packages = get-content $PSScriptRoot\packages.json | ConvertFrom-Json 
 
 # $packages = @(
 # 	# @{identifier = ""; categories=$( categories(@("")) ) },

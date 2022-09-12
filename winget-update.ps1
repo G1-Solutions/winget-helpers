@@ -50,7 +50,7 @@ switch ($PSCmdlet.ParameterSetName) {
 	
 		upgradePackages($packages | Select-Object -ExpandProperty identifier )
 
-	 }
+	}
 
 	 "By category" {
 
@@ -58,7 +58,7 @@ switch ($PSCmdlet.ParameterSetName) {
 	
 		upgradePackages($packages | Select-Object -ExpandProperty identifier )
 
-	 }
+	}
 
 	 "By alias and category" {
 		
@@ -69,5 +69,5 @@ switch ($PSCmdlet.ParameterSetName) {
 
 	 "By identifier" {
 		winget upgrade $identifier
-	 }
+	}
 }
