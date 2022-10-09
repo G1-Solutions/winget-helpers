@@ -106,7 +106,8 @@
             "",
             "source-control",
             "development",
-            "git"
+            "git",
+			"utilities"
         ],
         "identifier": "Git.Git",
         "alias": "Git"

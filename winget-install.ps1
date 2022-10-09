@@ -20,7 +20,7 @@ param(
 . $PSScriptRoot\winget-packages.ps1
 
 
-function upgradePackages() {
+function installPackages() {
 	param(
 		[String[]]
 		$packageIdentifiers
@@ -37,7 +37,7 @@ function upgradePackages() {
 
 		write-host "Trying to install $($_)..."
 
-		winget install $_
+		winget install $_ --scope machine
 	
 		write-host "`r`n" -NoNewline
 
@@ -49,7 +49,7 @@ switch ($PSCmdlet.ParameterSetName) {
 	"By alias" { 
 		$packages = $packages | Where-Object { $_.alias.ToUpper() -eq $alias.ToUpper() } 
 	
-		upgradePackages($packages | Select-Object -ExpandProperty identifier )
+		installPackages($packages | Select-Object -ExpandProperty identifier )
 
 	 }
 
@@ -57,7 +57,7 @@ switch ($PSCmdlet.ParameterSetName) {
 
 		$packages = $packages | Where-Object { $_.categories -icontains $category } 
 	
-		upgradePackages($packages | Select-Object -ExpandProperty identifier )
+		installPackages($packages | Select-Object -ExpandProperty identifier )
 
 	 }
 
@@ -65,10 +65,10 @@ switch ($PSCmdlet.ParameterSetName) {
 		
 		$packages = $packages | Where-Object { ($null -eq $alias -or $alias -eq "" -or $_.alias.ToUpper() -eq $alias.ToUpper()) -and ($_.categories -icontains $category -or $null -eq $category) } 
 	
-		upgradePackages($packages | Select-Object -ExpandProperty identifier )
+		installPackages($packages | Select-Object -ExpandProperty identifier )
 	 }
 
 	 "By identifier" {
-		winget install $identifier
+		winget install $identifier --scope machine
 	 }
 }
